@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "braine"
+version = "1.0.0"
+description = "BrainE Grid World AI - Unified Cognitive Architecture"
+readme = "docs/ARCHITECTURE.md"
+requires-python = ">=3.8"
+dependencies = [
+    # Dependencies are managed via requirements.txt for now
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
