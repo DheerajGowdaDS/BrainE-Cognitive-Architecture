@@ -80,13 +80,19 @@ Observation Engine         Perception Layer          Tracker/Memory            A
 
 Experience the Brain cognitive system actively navigating hazard-dense, sparse-reward maps in real time. This demonstration highlights the live synchronization between the agent's spatial frontier mappings and the tracking diagnostics panel.
 
-https://github.com/user-attachments/assets/3c085b33-d906-46e6-932b-cb02cb614e1b
+https://github.com/user-attachments/assets/80443004-fe4f-43f5-b3cd-f385db994c6c
 
-> 🎬 **What to Look For in the Demo:**
-> * **Real-Time Frontier Expansion:** Watch the agent build tracking node maps in real-time as it explores dark regions.
-> * **Dynamic Sequence Execution:** Notice how the engine paths back to collect hidden key targets once a door obstruction is observed.
-> 
-> 
+### 🎬 What to Look For in the Demo
+
+Pay close attention to the 3-panel dashboard to see the agent's "mind" in action:
+
+> **Real-Time Allocentric Mapping (Panel 3):** Watch the agent construct a persistent topological graph of the environment in real-time. Notice how it uses curiosity-driven exploration to map "dark" unknown regions, updating its spatial memory even when objects leave its immediate Field of View (Panel 2).
+
+> **The Neuro-Symbolic Bridge (Panel 1 & Console):** Look for the `SYMBOLIC EXEC` logs. When the agent reaches a key or door, it doesn't just bump into it. The Symbolic Action Executor takes over, forcing exact directional alignment to execute discrete `PICKUP` and `TOGGLE` actions, successfully mutating the world state from *DoorClosed* to *DoorOpen*.
+
+> **Hazard Avoidance & Gap Seeking:** In the `LavaCrossing` environment, observe how the agent uses its local 3-step horizon planner to evaluate trajectories, actively avoiding red lava nodes in its cognitive map while hunting for safe gaps to cross.
+
+> ** Intelligent Failure (MultiRoom):** In the final environment, the agent stops moving and times out. This is a deliberate feature, not a bug. Because the environment contains doors but *no keys*, the agent's symbolic logic correctly identifies the door as impassable and stops wasting energy—proving it is reasoning about object dependencies rather than just randomly exploring.
 
 ---
 
