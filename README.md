@@ -1,15 +1,15 @@
 
-# BrainE — Unified Cognitive Architecture for Grid World AI
+# Brain — Unified Cognitive Architecture for Grid World AI
 
 ![](https://img.shields.io/badge/python-3.12-blue.svg) ![](https://img.shields.io/badge/framework-PyTorch%20%7C%20MiniGrid-orange.svg) ![](https://img.shields.io/badge/architecture-8--Phase%20Decoupled-brightgreen.svg)
 
-BrainE is an enterprise-grade cognitive engine engineered to navigate, reason, and adapt within complex, sparse-reward, and procedurally generated grid world environments. By breaking away from traditional flat end-to-end reinforcement learning policies, BrainE introduces a decoupled, multi-layered processing loop. It isolates raw sensory processing from internal topological tracking and hierarchical spatial planning, allowing AI agents to solve extreme long-horizon bottlenecks systematically.
+Brain is an enterprise-grade cognitive engine engineered to navigate, reason, and adapt within complex, sparse-reward, and procedurally generated grid world environments. By breaking away from traditional flat end-to-end reinforcement learning policies, BrainE introduces a decoupled, multi-layered processing loop. It isolates raw sensory processing from internal topological tracking and hierarchical spatial planning, allowing AI agents to solve extreme long-horizon bottlenecks systematically.
 
 ---
 
 ## 📂 Core Architecture & Package Specifications
 
-BrainE organizes distinct cognitive responsibilities into a highly decoupled `src/` layout package tree. Each module represents an isolated phase of the agent's structural runtime:
+Brain organizes distinct cognitive responsibilities into a highly decoupled `src/` layout package tree. Each module represents an isolated phase of the agent's structural runtime:
 
 - [x] **`perception`** — Processes raw environment matrix grids into semantic object feature layers.
 - [x] **`grounding`** — Coordinates multi-modal state representations with active action spaces.
@@ -78,7 +78,7 @@ Observation Engine         Perception Layer          Tracker/Memory            A
 
 ## 🚀 The Demo Video
 
-Experience the BrainE cognitive system actively navigating hazard-dense, sparse-reward maps in real time. This demonstration highlights the live synchronization between the agent's spatial frontier mappings and the tracking diagnostics panel.
+Experience the Brain cognitive system actively navigating hazard-dense, sparse-reward maps in real time. This demonstration highlights the live synchronization between the agent's spatial frontier mappings and the tracking diagnostics panel.
 
 https://github.com/user-attachments/assets/3c085b33-d906-46e6-932b-cb02cb614e1b
 
@@ -92,7 +92,7 @@ https://github.com/user-attachments/assets/3c085b33-d906-46e6-932b-cb02cb614e1b
 
 ## 📊 Final Validation — Unseen Gauntlet Results
 
-The completed unified architecture was rigorously evaluated across an automated execution gauntlet containing completely unseen, long-horizon procedural configurations. BrainE demonstrated absolute zero-shot generalization advantages:
+The completed unified architecture was rigorously evaluated across an automated execution gauntlet containing completely unseen, long-horizon procedural configurations. Brain demonstrated absolute zero-shot generalization advantages:
 
 | Environment | Success Rate | Avg Steps | Avg Nodes | Pickups | Toggles |
 | --- | --- | --- | --- | --- | --- |
@@ -112,5 +112,5 @@ The completed unified architecture was rigorously evaluated across an automated 
 
 ---
 
-*Copyright © 2026 DheerajGowdaDS / BrainE Project. Proprietary and Confidential. All Rights Reserved.*
+*Copyright © 2026 DheerajGowdaDS / Brain Project. Proprietary and Confidential. All Rights Reserved.*
 
