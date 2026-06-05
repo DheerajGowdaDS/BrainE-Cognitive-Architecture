@@ -90,7 +90,7 @@ Experience the BrainE cognitive system actively navigating hazard-dense, sparse-
 
 ---
 
-## 📊 V3.5 Final Validation — Unseen Gauntlet Results
+## 📊 Final Validation — Unseen Gauntlet Results
 
 The completed unified architecture was rigorously evaluated across an automated execution gauntlet containing completely unseen, long-horizon procedural configurations. BrainE demonstrated absolute zero-shot generalization advantages:
 
