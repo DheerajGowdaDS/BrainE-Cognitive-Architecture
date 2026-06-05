@@ -80,7 +80,7 @@ Observation Engine         Perception Layer          Tracker/Memory            A
 
 Experience the BrainE cognitive system actively navigating hazard-dense, sparse-reward maps in real time. This demonstration highlights the live synchronization between the agent's spatial frontier mappings and the tracking diagnostics panel.
 
-### [▶️ Click Here to Watch the BrainE Showcase & Walkthrough Demonstration](https://www.google.com/search?q=https://YOUR_VIDEO_LINK_HERE)
+https://github.com/user-attachments/assets/3c085b33-d906-46e6-932b-cb02cb614e1b
 
 > 🎬 **What to Look For in the Demo:**
 > * **Real-Time Frontier Expansion:** Watch the agent build tracking node maps in real-time as it explores dark regions.
